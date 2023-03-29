@@ -1,8 +1,9 @@
 #include <stdio.h>
+#define LENGTH 6
 
-int course_number[6] = {4, 2, 1, 4, 3, 2};
 int main() {
-	for(int i = 6; i > 0; i--) {
+	int course_number[LENGTH] = {2, 3, 4, 1, 2, 4};
+	for(int i = 0; i < LENGTH; i++) {
 		printf("%d", course_number[i]);
 	}
 	printf("\n");
